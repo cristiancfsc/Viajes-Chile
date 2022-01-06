@@ -1,3 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    background: transparent;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.somos {
+    text-align: justify;
+    color: white;
+    font-weight: lighter;
 }
