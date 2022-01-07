@@ -21,7 +21,7 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
       <a class="navbar-brand">
         <img src="./img/viajes.svg" width="25px" height="25px" alt="logo">
       </a>
@@ -31,16 +31,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quiénes Somos</a>
+            <a class="nav-link" href="#quienes">Quiénes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
+            <a class="nav-link" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -85,11 +85,12 @@
     
     
     <!--QUIENES SOMOS-->
-<h4>¿Quiénes somos?</h4>
+<h4 id="quienes">¿Quiénes somos?</h4>
 <div class="container">
  <div class="row">
    <!--PARRAFO1-->
 <article class="somos col-12 col-lg-4 col-xl-4">
+  <i class="fas fa-plane"></i>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores asperiores iure et atque eius voluptatibus sapiente numquam placeat, odit eos id animi, ullam amet, pariatur nisi quaerat eum exercitationem voluptatem.</p></article>
 
 <!--PARRAFO2-->
@@ -98,6 +99,7 @@
 
 <!--PARRAFO3-->
 <article class="somos col-12 col-lg-4 col-xl-4">
+  <i class="fas fa-route"></i>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga inventore consequatur, voluptatibus architecto natus aspernatur consequuntur dignissimos incidunt adipisci aut corrupti. Ipsa labore, natus quae fugit alias deserunt sequi facere!</p></article>
 
 </div>
@@ -116,7 +118,10 @@
 
 
     <!--DESTACADOS-->
-    <h4>DESTACADOS</h4>
+    <h4 id="destacados">DESTACADOS</h4>
+    <hr>
+    
+    
     <div class="container">
       <div class="row">
        
@@ -124,7 +129,7 @@
         <article class="col-12 col-lg-3 col-xl-3">
     <div class="card" style="width: 14rem; height: 22rem;">
       <img src="./img/card1.jpg" class="card-img-top" alt="card1">
-      <div class="card-body">
+      <div class="card-body bg-primary text-white font-weight-light">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -134,7 +139,7 @@
     <article class="col-12 col-lg-3 col-xl-3">
     <div class="card" style="width: 14rem; height: 22rem;">
       <img src="./img/card2.jpg" class="card-img-top" alt="card2">
-      <div class="card-body">
+      <div class="card-body bg-primary text-white font-weight-light">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -144,7 +149,7 @@
   <article class="col-12 col-lg-3 col-xl-3">
     <div class="card" style="width: 14rem; height: 22rem;">
       <img src="./img/card3.jpg" class="card-img-top" alt="card3">
-      <div class="card-body">
+      <div class="card-body bg-primary text-white font-weight-light">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -154,7 +159,7 @@
   <article class="col-12 col-lg-3 col-xl-3">
     <div class="card" style="width: 14rem; height: 22rem;">
       <img src="./img/card4.jpg" class="card-img-top" alt="card4">
-      <div class="card-body">
+      <div class="card-body bg-primary text-white font-weight-light">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
@@ -169,7 +174,8 @@
 
 
     <!--CONTACTO-->
-    <h4>CONTACTO</h4>
+    <h4 id="contacto">CONTACTO</h4>
+    <hr>
     <div data-tf-widget="hq7IiudZ" data-tf-iframe-props="title=Geography Quiz (copy)" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 
@@ -185,7 +191,6 @@
     <i class="fab fa-linkedin"></i>
     <i class="fab fa-twitter-square"></i>
     <i class="fab fa-facebook-square"></i>
-  </div>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
