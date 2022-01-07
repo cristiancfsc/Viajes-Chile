@@ -30,23 +30,26 @@ h4 {
 }
 
 .fa-route {
-    background-color: #70caee;
-    padding: 0.5em 11em 0.5em 11em;
+    background-color: #0275d8;
+    padding: 0.5em 10.5em 0.5em 10.5em;
 }
 
 .fa-plane {
-    background-color: #70caee;
+    background-color: #0275d8;
     padding: 0.5em 10.5em 0.5em 10.5em;
+}
+
+.fa-mountain {
+    background-color: #0275d8;
+    padding: 0.5em 10.5em 0.5em 10.5em;
+
 }
 
 hr {
     height: 2px;
     width: 90%;
-    background-color: #70caee;
+    background-color: #0275d8;
     border-top: 2em;
     border-bottom: 2em;
   }
 
-  .poto {
-      display:inline;
-  }
