@@ -3,6 +3,7 @@ body {
     background-color: black;
 }
 
+
 .navbar {
     width: 100%; 
   }
@@ -10,6 +11,10 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
 .carousel img {
@@ -53,3 +58,6 @@ hr {
     border-bottom: 2em;
   }
 
+#Footer{
+background-color: #0275d8;
+}
